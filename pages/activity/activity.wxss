@@ -1,0 +1,55 @@
+.activity{
+  background: #F8F8F8;
+  height: 100%;
+  width: 100%;
+}
+
+.activity-hd{
+  width: 100%;
+}
+
+.notice-text{
+  line-height: 1.5;
+}
+
+.activity-bd{
+  margin-top: 70rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.questions-text-box{
+  min-height: 400rpx;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 100rpx;
+}
+
+.hint-text-box-show{
+  margin: 30rpx 0 0 30rpx;
+  color: #939393;
+}
+
+.hint-text-box-hiden{
+  margin: 30rpx 0 0 30rpx;
+  color: #939393;
+  visibility: hidden;
+}
+
+.btn-layout{
+  display: flex;
+  margin: 300rpx 30rpx 0;
+}
+
+.btn{
+  height: 80rpx;
+  width: 40%;
+  border-radius: 25px;
+  border: 0px;
+  background: #50F371;
+}

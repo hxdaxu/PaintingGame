@@ -1,0 +1,25 @@
+<!--activity.wxml-->
+<view class='activity'>
+  <view class='activity-hd'>
+    <text class='notice-text'>
+      请根据给出的词语作画。
+    </text>
+  </view>
+
+  <view class='activity-bd'>
+    <view class='questions-text-box'>
+      <text>{{question}}</text>
+    </view>
+
+    <view class="{{showView?'hint-text-box-show':'hint-text-box-hiden'}}">
+      <text>{{hint}}</text>
+    </view>
+
+    <view class='btn-layout'>
+      <button class='btn' bindtap='showHint'>查看提示</button>
+      <button class='btn' bindtap='nextQuestion'>下一题</button>
+    </view>
+
+  </view>
+
+</view>

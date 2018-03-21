@@ -1,0 +1,21 @@
+/**index.wxss**/
+.index-bd{
+  padding: 0rpx 30rpx 0rpx;
+  background: #F8F8F8;
+}
+
+.button-sp-area{
+  margin: 70rpx auto 0rpx;
+  width: 60%;
+}
+
+.rule-text{
+  line-height: 1.5;
+}
+
+.begin-bt{
+  height: 80rpx;
+  border-radius: 25px;
+  border: 0px;
+  background: #50F371;
+}

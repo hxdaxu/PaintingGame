@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="index-bd">
+  <!-- <block wx:for="{{array}}">
+    <view>list test</view>
+    <view>my name is {{item}}</view>
+    <view class="line"></view>
+  </block> -->
+  <!-- <text class="">{{rule-text}}</text> -->
+  <text class="rule-text">{{gameRule}}</text>
+  
+  <view class='button-sp-area'>
+    <button class="begin-bt" bindtap='startGame'>开始游戏！</button>
+  </view>
+  
+
+</view>
